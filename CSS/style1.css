@@ -1,0 +1,284 @@
+body {
+    background-image: url(/imagen/03.jpg);
+    font-family: Times,serif; 
+    color: rgb(103, 152, 152); 
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+
+.header{
+    background-image: url(/imagen/cuerpo\ y\ mente.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+}
+
+
+.img-logo{
+    width: 80px;
+    height: 80px;
+}
+
+.link_nav-header{
+    color:  rgb(103, 152, 152);
+}
+
+.link_nav-header:hover{
+    color: rgb(250, 250,250);
+}
+
+
+.social-icons {
+    font-size: 24px; /* Tamaño de los iconos */
+    margin-right: 10px; /* Espaciado entre iconos */
+}
+
+.fa-sm{
+    color: rgb(0, 102, 102);
+}
+
+.custom-container{
+    background-image: url('/imagen/07.jpg'); /* URL de la imagen de fondo */
+    background-size: 100%;
+    height: 700px;
+    width: 100%;
+    
+}
+
+.carousel{
+    width: 100%;
+}
+
+.contenedor-con-fondo {
+    background-size: 100%;
+    height: 700px;
+    color: rgb(103, 152, 152); /* Cambia el color del texto para que sea legible en el fondo */
+   
+}
+
+
+.row_title_header{
+    padding: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*footer*/
+.footer {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("");
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+
+
+
+.first {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+}
+
+    .first h4 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: #fff;
+        padding-bottom: 0.5em;
+    }
+
+        .first h4::after {
+            content: '';
+            background: #66c83d;
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+    .first p {
+        font-size: 14px;
+    }
+
+.second {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.second2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.second h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+    .second h4::after {
+        content: '';
+        background: #66c83d;
+        width: 20%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
+
+
+.second li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.second a, .second2 a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+    .second a:hover, .second2 a:hover {
+        color: #fff;
+        transition: 0.2s;
+        text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        text-decoration: none
+
+    }
+
+
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+
+    .third h4 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: #fff;
+        padding-bottom: 0.5em;
+    }
+
+
+        .third h4::after {
+            content: '';
+            background: #66c83d;
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 80%;
+        }
+
+
+
+    .third li {
+        list-style: none;
+        padding-bottom: 15px;
+    }
+
+
+    .third a {
+        color: rgb(206, 206, 206);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.2s;
+    }
+
+
+        .third a:hover {
+            color: #fff;
+            transition: 0.2s;
+            text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        }
+/*footer*/
+
+ .row_block_level{
+            background-image: url('/imagen/yoga-para-mayores-de-60-anos.jpg'); /* URL de la imagen de fondo */
+            background-size: 100% 100%;
+            height: 100vh;
+            background-position: center;
+           background-size: cover;
+           box-sizing: border-box;
+            
+}
+
+
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;}
+ }  
+ 
+ 
+ @media screen and (max-width:576px) {
+    .contenedor-con-fondo {
+       height: 500px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+    .row_block_level{
+        height: 70vh;    
+     }
+
+     
+     .header{
+            height: 600px;
+    }
+
+    .main_container{
+        width: 100%;
+    }
+   
+ }   
+
+ @media screen and (min-width:992px) {
+    a{
+        font-size: 15px;
+    }
+
+    .main_container{
+        width: 75%;
+        margin: auto !important;
+    }
+ }
+ 
+
+ 
+
